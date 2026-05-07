@@ -1,0 +1,12 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "back"]
+	url = https://github.com/Pvblinho/Donaton-.git
+	fetch = +refs/heads/*:refs/remotes/back/*
+[branch "main"]
+	vscode-merge-base = back/main
