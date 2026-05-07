@@ -26,5 +26,5 @@ public class Envio {
     private Long necesidadDestinoId;
     private LocalDateTime fechaSalida;
     private LocalDateTime fechaLlegada;
-    private String estado; // Pendiente, En Proceso, Completado
+    private String estado;
 }
